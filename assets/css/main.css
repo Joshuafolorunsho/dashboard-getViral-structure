@@ -6,8 +6,6 @@ body {
   border-color: transparent;
 }
 
-
-
 .header__link {
   color: #000;
 }
@@ -18,12 +16,6 @@ body {
   background-color: #0075ff;
   margin-right: 0;
   margin-left: 0;
-}
-
-.nav-item.active {
-  margin-top: 5px;
-  background-color: #f0f7ff;
-  color: #0075ff;
 }
 
 .navbar {
