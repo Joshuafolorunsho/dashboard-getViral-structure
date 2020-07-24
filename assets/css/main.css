@@ -2,6 +2,10 @@ body {
   background-color: #f0f7ff;
 }
 
+.dropdown-menu.show {
+  transform: translate3d(-47px, 23px, 0px);
+}
+
 .navbar-light .navbar-toggler {
   border-color: transparent;
 }
