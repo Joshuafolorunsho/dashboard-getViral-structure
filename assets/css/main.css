@@ -123,6 +123,26 @@ body {
     color: #fff;
     bottom: 8%;
   }
+
+  /* Dashboard Icons */
+  .dashboard-icon
+  {
+    fill: white;
+    width: 60px;
+    height: 60px;
+  }
+
+  .sign-icon
+  {
+    stroke: white;
+    width: 60px;
+    height: 60px;
+  }
+
+  .sidebar__list-active .dashboard-icon, .sidebar__list-active .sign-icon
+  {
+    fill: #0075FF;
+  }
 }
 
 
