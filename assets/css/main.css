@@ -10,6 +10,11 @@ body {
   border-color: transparent;
 }
 
+.navbar-toggler:focus
+{
+  outline: 5px auto #0375fe;
+}
+
 .header__link {
   color: #000;
 }
@@ -118,6 +123,26 @@ body {
     color: #fff;
     bottom: 8%;
   }
+
+  /* Dashboard Icons */
+  .dashboard-icon
+  {
+    fill: white;
+    width: 60px;
+    height: 60px;
+  }
+
+  .sign-icon
+  {
+    stroke: white;
+    width: 60px;
+    height: 60px;
+  }
+
+  .sidebar__list-active .dashboard-icon, .sidebar__list-active .sign-icon
+  {
+    fill: #0075FF;
+  }
 }
 
 
@@ -133,4 +158,24 @@ body {
 
   .main-content {
     margin-left: 250px;
+}
+
+/* Dashboard Icons */
+.dashboard-icon
+{
+  fill: white;
+  width: 60px;
+  height: 60px;
+}
+
+.sign-icon
+{
+  stroke: white;
+  width: 60px;
+  height: 60px;
+}
+
+.sidebar__list-active .dashboard-icon, .sidebar__list-active .sign-icon
+{
+  fill: #0075FF;
 }
