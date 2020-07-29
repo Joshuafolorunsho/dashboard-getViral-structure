@@ -9,19 +9,18 @@ body {
   font-family: "Source Sans Pro", sans-serif !important;
 }
 
-input:focus,
-button:focus,
-a:focus {
-  outline: 1px solid var(--sideBar-active);
-}
 
+.side-bar__name:hover,
+.side-bar__name:active {
+  font-weight: 600;
+  color: var(--sideBar-active);
+}
 
 .logo {
   max-width: 70%;
 }
 
 /*Small screens*/
-
 .navbar-light .navbar-toggler-icon {
   background-image: url("../images/hamburger\ menu.svg");
 }
@@ -36,6 +35,7 @@ a:focus {
 
 .sidebar {
   position: relative;
+  transition: all .2s linear;
 }
 
 .sidebar > * {
@@ -74,8 +74,8 @@ a:focus {
   fill: var(--sideBar-active);
 }
 
-
 .nav-link-active {
+  font-weight: 600;
   color: var(--sideBar-active) !important;
 }
 
@@ -104,8 +104,7 @@ a:focus {
 }
 
 .hamburger-button:focus {
-  outline: none;
-  /* TODO: Create custom outline */
+  outline: 1px solid var(--sideBar-active);
 }
 
 .hamburger-menu {
@@ -115,6 +114,7 @@ a:focus {
 .mobile-search {
   position: relative;
 }
+
 .mobile-search__input {
   border-radius: 99999px;
   width: 100%;
@@ -134,8 +134,6 @@ a:focus {
   right: 10px;
   transform: translateY(-50%);
 }
-
-
 
 .footer-link {
   color: #362f74;
@@ -171,7 +169,7 @@ a:focus {
   }
 
   .collapse-sidebar {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .collapse-sidebar .sidebar {
